@@ -29,7 +29,6 @@
 		9E7422D516EFB9A0006F4197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E7422D616EFB9A0006F4197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9E7422D916EFB9A0006F4197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9E7422E016EFBFDF006F4197 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +46,6 @@
 		9E7422B416EFB99F006F4197 = {
 			isa = PBXGroup;
 			children = (
-				9E7422E016EFBFDF006F4197 /* Carbon.framework */,
 				9E7422C916EFB9A0006F4197 /* ErgoTyper */,
 				9E7422C216EFB9A0006F4197 /* Frameworks */,
 				9E7422C016EFB9A0006F4197 /* Products */,
@@ -299,6 +297,7 @@
 				9E7422DF16EFB9A0006F4197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
