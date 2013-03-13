@@ -24,6 +24,8 @@
 
 @implementation AppDelegate
 {
+	NSStatusItem* statusItem;
+	
 	id eventMonitor;
 	int keys[128];
 }
@@ -105,6 +107,14 @@
 	self.window.hasShadow = NO;
 	self.window.animationBehavior = NSWindowAnimationBehaviorNone;
 	self.window.backgroundColor = [NSColor redColor];
+	
+	NSStatusBar *bar = [NSStatusBar systemStatusBar];
+	
+    statusItem = [bar statusItemWithLength:NSVariableStatusItemLength];
+	
+    [statusItem setTitle:@"ET"];
+    [statusItem setHighlightMode:YES];
+    [statusItem setMenu:self.menu];
 }
 
 - (void)flashScreen:(CGFloat)duration
