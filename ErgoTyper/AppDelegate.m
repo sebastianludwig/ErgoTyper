@@ -126,7 +126,7 @@
 
 - (void)openFrontPreferencesWindow
 {
-	NSWindow* preferences = [NSWindow ]
+//	NSWindow* preferences = [NSWindow ]
 }
 
 #pragma mark private methods
