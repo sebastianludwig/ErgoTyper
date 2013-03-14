@@ -13,6 +13,7 @@
 		9E7422D416EFB9A0006F4197 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7422D216EFB9A0006F4197 /* Credits.rtf */; };
 		9E7422D716EFB9A0006F4197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7422D616EFB9A0006F4197 /* AppDelegate.m */; };
 		9E7422DA16EFB9A0006F4197 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E7422D816EFB9A0006F4197 /* MainMenu.xib */; };
+		9ED1B08F16F0F0D300804364 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1B08E16F0F0D300804364 /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9E7422D616EFB9A0006F4197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9E7422D916EFB9A0006F4197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9E7422E016EFBFDF006F4197 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		9ED1B08E16F0F0D300804364 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				9E7422D516EFB9A0006F4197 /* AppDelegate.h */,
 				9E7422D616EFB9A0006F4197 /* AppDelegate.m */,
 				9E7422D816EFB9A0006F4197 /* MainMenu.xib */,
+				9ED1B08E16F0F0D300804364 /* Preferences.xib */,
 				9E7422CA16EFB9A0006F4197 /* Supporting Files */,
 			);
 			path = ErgoTyper;
@@ -158,6 +161,7 @@
 				9E7422CE16EFB9A0006F4197 /* InfoPlist.strings in Resources */,
 				9E7422D416EFB9A0006F4197 /* Credits.rtf in Resources */,
 				9E7422DA16EFB9A0006F4197 /* MainMenu.xib in Resources */,
+				9ED1B08F16F0F0D300804364 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				9E7422DF16EFB9A0006F4197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

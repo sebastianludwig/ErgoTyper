@@ -117,6 +117,20 @@
     [statusItem setMenu:self.menu];
 }
 
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+	[NSEvent removeMonitor:eventMonitor];
+}
+
+#pragma mark Actions
+
+- (void)openFrontPreferencesWindow
+{
+	NSWindow* preferences = [NSWindow ]
+}
+
+#pragma mark private methods
+
 - (void)flashScreen:(CGFloat)duration
 {
 	NSScreen* screen = [[NSScreen screens] objectAtIndex:0];
@@ -144,9 +158,7 @@
 			|| (modifier & RIGHT_COMMAND) == RIGHT_COMMAND);
 }
 
-- (void)applicationWillTerminate:(NSNotification *)notification
-{
-	[NSEvent removeMonitor:eventMonitor];
-}
+
+
 
 @end
